@@ -38,3 +38,9 @@ Will take the image in your clipboard, and then save it in your current director
 ## Supported Environments
 
 I've only tested this on OS X so far. I'll update the script as necessary for other operating systems.
+
+## TODO
+
+Make it take images off the cross-platform pasteboard as well. If I click "copy" on a photo on my iPhone
+and then use screenpaste, OS X will show me a copying dialog, but then won't successfully paste the image.
+I probably need to integrate with some OS X utility to grab the temporary file.
