@@ -21,6 +21,8 @@ screenpaste foo
 
 Will take the image in your clipboard, and then save it in your current directory as `foo.png`. Amazing!
 
+(Instead of the current directory, you can also specify a path, like `screenpaste ~/Desktop/quux`.)
+
 ## Setup
 
 1. Don't make a virtualenv or pipenv for this. You want a global installation.
